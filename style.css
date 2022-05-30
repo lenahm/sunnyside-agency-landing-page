@@ -25,6 +25,44 @@ body {
     font-size: 18px;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4, h5 {
     font-family: 'Fraunces', serif;
+}
+
+/* header */
+
+#header-nav {
+    justify-content: space-between;
+}
+
+/* main content */
+
+#main-content {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* testimonials */
+
+#client-testimonials #testimonials {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* footer */
+
+#imgs-footer {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+}
+
+.flex-columm {
+    flex-direction: column;
+}
+
+.grid {
+    display: grid; 
 }
